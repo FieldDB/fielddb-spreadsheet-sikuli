@@ -1,0 +1,15 @@
+find("1416542452932.png")
+click("1416542464884.png")
+type("teammatetiger\tphoneme\n")
+
+wait("1416543208055.png")
+click("1416546489531.png")
+wait("1416546507522.png")
+click("1416544242283.png")
+wait(1000)
+type("#DOWN#ENTER")
+
+click("1416543902204.png")
+wait("arrowbuttons.png")
+wait("1416542595201.png")
+click("1416542595201.png")
