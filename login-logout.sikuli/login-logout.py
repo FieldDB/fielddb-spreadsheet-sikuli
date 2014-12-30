@@ -1,7 +1,7 @@
 find("1416542452932.png")
 doubleClick("1416542464884.png")
 wait(1)
-type("teammatetiger\tphoneme\n")
+type("jenkins\tphoneme\n")
 wait(5)
 wait("1416542595201.png")
 doubleClick("1416542595201.png")

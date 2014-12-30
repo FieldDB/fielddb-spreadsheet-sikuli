@@ -1,6 +1,6 @@
 find("1416542452932.png")
 doubleClick("1416542464884.png")
-type("teammatetiger\tphoneme\n")
+type("jenkins\tphoneme\n")
 wait(Pattern("1416543208055.png").similar(0.39))
 find("1416775268385.png")
 doubleClick("1416775295161.png")
