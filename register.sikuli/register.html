@@ -70,12 +70,12 @@
 <h2>register.sikuli</h2> <a href="register.zip">(Download this script)</a>
 </div>
 <pre class="sikuli-code">
-<span class="skw">find</span>(<img src="1416542452932.png" />)
+<span class="skw">find</span>(<img src="1420447070545.png" />)
 <span class="skw">find</span>(<img src="1419776697086.png" />)
 <span class="skw">wait</span>(<span class="dig">1</span>)
 <span class="skw">doubleClick</span>(<img src="1419776697086.png" />)
-<span class="skw">wait</span>(<img src="1419777054142.png" />,<span class="dig">5</span>)
-<span class="skw">doubleClick</span>(Pattern(<img src="1419777054142.png" />).targetOffset(<span class="dig">5</span>,-<span class="dig">45</span>),<span class="dig">5</span>)
+<span class="skw">wait</span>(Pattern(<img src="1419777054142.png" />).similar(<span class="dig">0.63</span>),<span class="dig">5</span>)
+<span class="skw">doubleClick</span>(Pattern(<img src="1419777054142.png" />).similar(<span class="dig">0.67</span>).targetOffset(<span class="dig">5</span>,-<span class="dig">45</span>),<span class="dig">5</span>)
 <span class="skw">type</span>(<span class="str">"jenkins\tphoneme\tphoneme\t\n"</span>)
 <span class="skw">wait</span>(<img src="1419776794052.png" />, <span class="dig">10</span>)
 <span class="skw">doubleClick</span>(<img src="1419777345844.png" />)
